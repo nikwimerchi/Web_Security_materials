@@ -1,0 +1,16 @@
+Tasks
+=======
+
+1. add your public keys to your github account
+
+2. generate ssh keys on the server 
+ 
+3. add also the server's public key to your github account
+
+4. clone the other project (conference app from interactive web) to the server (home directory).
+
+5. access the server from the VS Code.
+   +(add remote ssh extension to VS code)
+   +(ctl+shift+P  -> add host / connect to host)
+
+6.

@@ -1,0 +1,44 @@
+password:  WebSec@2022#npc
+ssh username@ip
+
+creating a new user:
+====================
+adduser
+
+add the new user to the sudo group
+==================================
+usermod -aG sudo username
+
+listing users
+=============
+cat /etc/passwd
+
+listing groups
+==============
+cat /etc/group
+
+enabling public key authentication
+==================================
+nano /etc/ssh/sshd_config
+
+we removed the commend on PubKeyAuthentication 
+
+generating ssh keys (on your local machine NOT on the server)
+=============================================================
+ssh-keygen
+
+send keys to the server
+========================
+ssh-copy-id username@ip
+
+accessing server using SSH keys
+================================
+ssh username@ip
+then accept the keys
+
+disable password authentication (make sure that ssh authentication is working)
+===============================
+
+
+
+
